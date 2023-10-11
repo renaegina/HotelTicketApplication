@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/warnabtn"
+    tools:context=".ListHotel">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/warnabg"
+        android:padding="10dp"
+        android:text="List Kamar"
+        android:textColorHint="@color/white"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="347dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="20dp"
+        app:cardBackgroundColor="#D74BD6C2"
+        app:layout_constraintVertical_bias="0.166">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Single Room"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Rp.800.000" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/single_room" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="347dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="20dp"
+        app:cardBackgroundColor="#D74BD6C2"
+        app:layout_constraintVertical_bias="0.166">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Double Room"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Rp.1.000.000" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/double_room" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="347dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="359dp"
+        android:layout_marginEnd="20dp"
+        app:cardBackgroundColor="#D74BD6C2"
+        app:layout_constraintVertical_bias="0.166">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Family Room"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Rp.1.500.000" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/family_room" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="347dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="496dp"
+        android:layout_marginEnd="20dp"
+        app:cardBackgroundColor="#D74BD6C2"
+        app:layout_constraintVertical_bias="0.166">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Deluxe Room"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Rp.1.800.000" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/deluxe_room" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="347dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="632dp"
+        android:layout_marginEnd="20dp"
+        app:cardBackgroundColor="#D74BD6C2"
+        app:layout_constraintVertical_bias="0.166">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Suite Room"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="Rp.2.000.000" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/suite_room" />
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

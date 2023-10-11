@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1D1D1D"
+    tools:context=".family">
+
+    <ImageView
+        android:layout_width="346dp"
+        android:layout_height="363dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="47dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:src="@drawable/family_room" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="508dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="0dp"
+        app:cardBackgroundColor="#1D1D1D"
+        app:cardCornerRadius="20pt">
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
