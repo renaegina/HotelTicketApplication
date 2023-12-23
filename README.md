@@ -1,7 +1,7 @@
 # HotelTicketApplication
 
 <p align="center">
-  <img alt="Java Logo" width="300px" src="https://logowik.com/content/uploads/images/java1655.logowik.com.webp">
+  <img alt="Java Logo" width="400px" src="https://logowik.com/content/uploads/images/java1655.logowik.com.webp">
 </p>
 
 ## About Java
